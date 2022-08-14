@@ -1,0 +1,36 @@
+.container{
+  width: 20%;
+  position: relative;
+    
+}
+
+.about{
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img{
+   border-radius: 100px;
+   width: 80%;
+   object-fit: cover;
+}
+.about h3{
+    color:white;
+    font-size:1.5rem;
+    margin-bottom: 20px;
+}
+.about button{
+    border:none;
+    padding: 10px;
+    background-color: white;
+    color:gray;
+    cursor: pointer;
+    font-weight: 600;
+}

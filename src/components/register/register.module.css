@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+.register_container{
+width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: inherit;
+
+
+}
+.inner_container{
+display: flex;
+align-items: center;
+height: 80vh;
+width: 70vw;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    background: url(design.png) no-repeat center center;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 0 20px;
+    height: 100%;
+    width: 40%;
+}
+.banner_container h2{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+} 
+.banner_container p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.btn{
+    width: 50%;
+    border-radius: 2rem;
+    background-color: #f5f5f5;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+}
+.login_btn{
+    color: #13467f;
+    
+}
+.login_btn:hover{
+    color: #0a2542;
+    
+}
+.register_container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 0 20px;
+    color: #0a2542;
+}
+
+.register_container form h2{ 
+    font-size: 3rem;
+
+}
+.social_login_container{
+   font-size: 1.3rem;
+   font-weight: bold;
+   margin-bottom: 1.5rem;
+    
+}
+
+.social_login_buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3rem;
+   
+}
+.social_login_buttons button{
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+    font-size: 1rem;
+}
+
+
+.register_container form input{
+   
+   font-weight: bold;
+    border-radius: 2rem;
+    border: none;
+    padding: 20px 20px;
+    font-size: 1.3rem;
+    margin: 1.5rem 0;
+    color: #0a2542;
+}
+.register_container form input:focus{
+ outline: none;
+}
+.register_btn{
+    background-color: #13467f;
+    color: #fff;
+    border: none;
+   
+}
+.register_btn:hover{
+    background-color: #0a2542;
+}
