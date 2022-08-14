@@ -11,6 +11,7 @@ import ProductPage from './components/Product/ProductPage';
 import Cart from './components/Cart/Cart';
 import SingleCart from './components/Cart/SingleCart';
 import Register from './components/register/Register';
+import AboutPage from './Pages/AboutPage';
 
 const Layout = () => {
     
@@ -20,6 +21,7 @@ const Layout = () => {
             <div className='body'>
                 <Routes>
                     <Route path='/' element={<HomePage />} />
+                    <Route path='/about' element={<AboutPage/>} />
                     <Route path='/login' element={<Login />} />
                     <Route path='/register' element={<Register />} />
                     <Route path='/product/:category' element={<Product/>} />
