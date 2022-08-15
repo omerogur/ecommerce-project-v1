@@ -1,6 +1,6 @@
 # Kodluyoruz-137 Mersin Front-End Web Development Bootcamp Bitirme Projesi
 
-#Live =  https://ecommerce-project-v1-fkp4yi2jj-omerogur.vercel.app/ #
+#Live =  https://ecommerce-project-v1-omerogur.vercel.app/ #
 
 # Tech Stack # 
 React, React Router, Context,Ant Design , Boostrap ,FireBase, API :https://fakestoreapi.com/
