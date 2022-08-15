@@ -53,16 +53,16 @@ const Slider = () => {
      }
       
      setTimeout(() => {
-       
-     },1000)
+       handleClick()
+     },5000)
      
   return (
     <div>
                  <div className='slider-container'>
-                    <CaretRightOutlined className='right' onClick={handleClick}>right</CaretRightOutlined>
+                    <CaretRightOutlined className='right'>right</CaretRightOutlined>
                       
                       <div className='wrapper'>
-                      { data < 4 ? 
+                      { data <= 4 ? 
                       <div className='slide' style={{backgroundColor: `${sliderItems[data].bg}`}}>
                          <div className='imageContainer'>
                                 <img src={sliderItems[data].img} /> 
@@ -78,7 +78,7 @@ const Slider = () => {
                             }
                       </div>
 
-                    <CaretLeftOutlined className='left' onClick={handleClick2}>left</CaretLeftOutlined>
+                    <CaretLeftOutlined className='left'>left</CaretLeftOutlined>
                  </div>
 
                  <hr/>
