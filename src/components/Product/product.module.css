@@ -8,3 +8,11 @@
     width: 100%;
    
 }
+.load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+    color:"red"
+}

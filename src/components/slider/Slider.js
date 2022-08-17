@@ -57,7 +57,7 @@ const Slider = () => {
       setTimeout(() => {
          playSliderForward()
          setCounter(prev => prev + 1)
-      },3000)
+      },2000)
 
    }, [counter])
 
