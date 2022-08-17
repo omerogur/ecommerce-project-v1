@@ -9,7 +9,7 @@ import Footer from './components/footer/Footer';
 import Product from './components/Product/Product';
 import ProductPage from './components/Product/ProductPage';
 import Cart from './components/Cart/Cart';
-import SingleCart from './components/Cart/SingleCart';
+import SingleCart from './components/Cart/SingleCard';
 import Register from './components/register/Register';
 import AboutPage from './Pages/AboutPage';
 
