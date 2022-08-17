@@ -19,17 +19,15 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarScroll">
             <ul className="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style={{bsScrollHeight: '100px'}}>
               <li className="nav-item">
-                <NavLink to={"/"} className="nav-link active" aria-current="page">Home</NavLink>
+                <Link to={"/"} className="nav-link active" aria-current="page">Home</Link>
               </li>
               <li className="nav-item">
-                <NavLink to={"/products"} className="nav-link" >Products</NavLink>
+                <Link to={"/products"} className="nav-link" >Products</Link>
               </li>
               <li className="nav-item">
-                <NavLink to={"/about"} className="nav-link" >About</NavLink>
+                <Link to={"/about"} className="nav-link" >About</Link>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to={"/"}>Link</NavLink>
-              </li>
+             
               
             </ul>
             

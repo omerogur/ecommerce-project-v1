@@ -18,11 +18,18 @@
     justify-content: center;
     text-align: center;
     top:70%;
-    color: rgb(222, 235, 235) !important;
+    color: rgb(134, 132, 132);
     font-weight: 700;
     flex-direction: column;
+    
+   
 }
 .paragraf h1{
-    color: white;
+    color: rgb(77, 75, 75);
     font-weight: bold;
+}
+.paragraf p{
+    color: rgb(77, 75, 75);
+    font-weight: bold;
+    background-color: bisque;
 }
