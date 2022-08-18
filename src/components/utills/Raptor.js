@@ -3,7 +3,7 @@ import {NavLink,Link} from "react-router-dom"
 const Raptor = () => {
   return (
     <div >
-     <Link to ={"/products"}><button  style={{textDecoration:"none"}}>GO NOW</button></Link>
+     <NavLink to ={"/products"} style={{textDecoration:"none",color:"black"}} ><button   style={{padding:"10px"}}>GO SHOPPING</button></NavLink>
     </div>
   )
 }

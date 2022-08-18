@@ -1,4 +1,5 @@
 import React from 'react'
+import Raptor from '../utills/Raptor'
 import style from './content.module.css'
 const Content = () => {
   return (
@@ -8,6 +9,7 @@ const Content = () => {
              <div className={style.paragraf}>
              <h1>Hemen Evini Dizayn Et</h1>
              <p >Uzun bir yaz tatilinden sonra evini yenile</p>
+             <Raptor  />
              </div>
              </div>
     </div>

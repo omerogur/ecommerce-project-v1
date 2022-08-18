@@ -23,26 +23,26 @@ const Categories = () => {
         },
         {
             id: 4,
-            img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-            title: "SHIRT STYLE!",
+            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHpsg-ZasY1s7QeLobHDUAH4O5CNK-y_fPWg&usqp=CAU",
+            title: " KIDS",
             category:"electronics",
         },
         {
             id: 5,
-            img: "https://ktnimg2.mncdn.com/cms/2022/08/08/28b669cf-b889-4cd9-859e-2c28c09907a4.jpg",
-            title: "SHIRT STYLE!",
+            img: "https://janatachitralaya.in/wp-content/uploads/2016/05/banner-02.jpg",
+            title: "MANS",
             category:"jewelery",
         },
         {
             id: 5,
             img: "https://ktnimg2.mncdn.com/cms/2022/08/08/28b669cf-b889-4cd9-859e-2c28c09907a4.jpg",
-            title: "SHIRT STYLE!",
+            title: "WOMENS!",
             category:"women's clothing",
         },
         {
             id: 5,
-            img: "https://ktnimg2.mncdn.com/cms/2022/08/08/28b669cf-b889-4cd9-859e-2c28c09907a4.jpg",
-            title: "SHIRT STYLE!",
+            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrxHrDzoDCb1ymhTIBXv2AaBGtB_vvekN2Kg&usqp=CAU",
+            title: "HOME",
             category:"men's clothing",
         },
     ];

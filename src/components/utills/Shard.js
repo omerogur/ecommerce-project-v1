@@ -11,7 +11,7 @@ const Shard = ({category}) => {
 
   return (
     <div>
-            <button onClick={() =>goPro(category)}>GO NOW</button>
+            <button onClick={() =>goPro(category)} style={{color:"black"}}>GO NOW</button>
     </div>
   )
 }
