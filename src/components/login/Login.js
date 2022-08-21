@@ -61,7 +61,7 @@ const Login = () => {
         </div>
         :
         <div className={styles.register_container}>
-          <h3 style={{ color: "white" }}>BAŞKA BİR HESAPLA GİRİŞ YAPMAK İÇİN LÜTFEN ÇIKIŞ YAPINIZ</h3>
+          <h3 style={{ color: "white" }}>PLEASE QUIT  TO LOG IN WITH ANOTHER ACCOUNT</h3>
           <Toaster position='top-center' />
         </div>}
     </>

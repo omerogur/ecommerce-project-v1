@@ -85,7 +85,7 @@ const Register = () => {
 
 
 
-            <h3 style={{ color: "white" }}>KAYIT OLMAK İÇİN LÜTFEN ÇIKIŞ YAPINIZ</h3>
+            <h3 style={{ color: "white" }}>PLEASE LOG OUT TO REGISTER</h3>
 
 
 
