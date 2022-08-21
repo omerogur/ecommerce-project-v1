@@ -6,22 +6,21 @@ import Navbar from '../components/navbar/Navbar'
 import Slider from '../components/slider/Slider'
 
 
-
-
 const HomePage = () => {
+
+
   return (
     <div>
-       
-        <Slider/>
-        <div style={{margin: "0 10%"}}>
-            <Categories/>
-            <Content/>
-        </div>
-            <Content2/>
-        
-        
-     
-      
+      <Slider />
+      <div style={{ margin: "0 10%" }}>
+        <Categories />
+        <Content />
+      </div>
+      <Content2 />
+
+
+
+
     </div>
   )
 }

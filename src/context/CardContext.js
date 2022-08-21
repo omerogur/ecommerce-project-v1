@@ -1,4 +1,5 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
+import FirebaseContext from "./FirebaseContext";
 
 
 const  Context = createContext(null)
@@ -6,16 +7,14 @@ const  Context = createContext(null)
 export const useCart = () =>  useContext(Context)
 
 const CardProvider = ({children}) => {
-
+   
     const [cart,setCart] = useState([])
-
     const addToCart = (item) => {
         const {id,title,price,description,category,image,rating} = item
         let obj = {
          id,title,price,description,category,image,rating,quantity:1,totalPrice:price
         }
        let findObj = cart.find(x => x.id==item.id)
-        console.log(findObj);
         if(!findObj){
          setCart(prev => [...prev,obj])
         }else{
@@ -23,10 +22,8 @@ const CardProvider = ({children}) => {
          findObj.totalPrice =(findObj.quantity*findObj.price) 
          setCart([...cart])
         }
-        console.log(cart);
      }
 
-     
 
     const values = {cart,setCart,addToCart}
 

@@ -42,10 +42,10 @@ const ProductPage = () => {
       {products.length>5 ? 
       <div className={style.flexContainer}>
       {products.map((item, key) => (
-          <div key={key} className='col-md-3 mb-5 justify-content-center' onClick={() => goDetail(item.id)}>
+          <div key={key} className='col-md-3 mb-5 justify-content-center' >
               
               <div  className="card h-100 text-center p-4" >
-                  <img src={item.image} className="card-img-top"  alt="..."  height="150px" />
+                  <img src={item.image} className="card-img-top"  alt="..."  height="150px" onClick={() => goDetail(item.id)} />
                   <div className="card-body">
                       <h5 className="card-title mb-3">{item.title}</h5>
                       <p className="card-text lead fw-bold">${item.price}</p>

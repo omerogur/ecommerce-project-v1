@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { ShoppingCartOutlined  } from '@ant-design/icons'
 import {  Badge } from 'antd';
 import {Link,NavLink} from 'react-router-dom'
 import "../../App.css"
 import { useCart } from '../../context/CardContext';
+import FirebaseContext from '../../context/FirebaseContext';
+import { auth } from  "../../firebase"
 const Navbar = () => {
 
  const {cart} = useCart()
-
+   const {handleLogout,user} = useContext(FirebaseContext)
   return (
     <div>
            <nav className="navbar navbar-expand-lg bg-light navbar-light shadow-sm py-3">
@@ -34,7 +36,16 @@ const Navbar = () => {
             <div className='buttons'>
              <Link to="/login">   <div  className='btn btn-outline-dark'><i className='fa fa-sign-in me-1'></i>LOGIN</div></Link>
              <Link to="/register">  <div  className='btn btn-outline-dark ms-2'><i className='fa fa-user-plus me-1'></i>Register</div></Link> 
-              <Link to= {"/cart"}>  <div  className='btn btn-outline-dark ms-2'><i className='fa fa-shopping-cart me-1'></i>Cart ({cart.length})</div></Link>
+             <Link to= {"/cart"}>  <div  className='btn btn-outline-dark ms-2'><i className='fa fa-shopping-cart me-1'></i>Cart ({cart.length})</div></Link>
+           
+             {
+              user &&
+             <>
+              <button onClick={handleLogout}>LOGOUT</button>
+              <h3>{user.displayName}</h3>
+             </>
+              
+             }
             </div>
             
           </div>

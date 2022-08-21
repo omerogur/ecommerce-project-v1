@@ -8,10 +8,7 @@ function App() {
   return (
           <CardProvider>
            <FirebaseProvider>
-
-          <>
           <Layout/>
-          </>
            </FirebaseProvider>
           </CardProvider>
      
