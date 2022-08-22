@@ -42,7 +42,7 @@ const Navbar = () => {
               user &&
              <>
               <button onClick={handleLogout} style={{marginLeft:"8px"}} className='btn btn-outline-dark'><i class="fa fa-sign-out" aria-hidden="true"></i>LOGOUT</button>
-              <h3>{user.displayName}</h3>
+              <h3>Hoş Geldin {user.displayName.toUpperCase()}</h3>
              </>
               
              }
