@@ -41,7 +41,7 @@ const Navbar = () => {
              {
               user &&
              <>
-              <button onClick={handleLogout}>LOGOUT</button>
+              <button onClick={handleLogout} style={{marginLeft:"8px"}} className='btn btn-outline-dark'><i class="fa fa-sign-out" aria-hidden="true"></i>LOGOUT</button>
               <h3>{user.displayName}</h3>
              </>
               
