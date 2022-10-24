@@ -6,6 +6,5 @@
 React, React Router, Context,Ant Design , Boostrap ,FireBase,Hot Toast API :https://fakestoreapi.com/
 
 
----FireBase ve Login,Register sayfaları ve fonksiyonları kuruldu Local storage ile de login olan kullanıcının verileri kayıt altına alacaktır.---
-
-POST İŞLEMİ  VE ORDER PAGE SAYFALARI GÜNCELLENECEK , UI iyileştirmeleri yapılacak .
+FireBase ve Login,Register sayfaları ve fonksiyonları kuruldu Local storage ile de login olan kullanıcının verileri kayıt altına alındı.---
+Proje henüz responsive değildir.
