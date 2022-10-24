@@ -8,6 +8,4 @@ React, React Router, Context,Ant Design , Boostrap ,FireBase,Hot Toast API :http
 
 ---FireBase ve Login,Register sayfaları ve fonksiyonları kuruldu Local storage ile de login olan kullanıcının verileri kayıt altına alındı.---
 
-POST İŞLEMİ  VE ORDER PAGE SAYFALARI GÜNCELLENECEK , UI iyileştirmeleri yapılacak 
-
 Proje henüz responsive değildir.
